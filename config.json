@@ -13,12 +13,15 @@
     "id": "pacmonitor",
     "class": "PacMonitorDevice",
     "name": "Power and Cost Monitor",
+    "operatingtime":  "$",
     "deviceRef": [
         {
-          "id": ""
+          "id": "", 
+          "optionalWattageRef": "",
         },
         {
-          "id": ""
+          "id": "",
+          "optionalWattageRef": "",
         }
       ],
     "wattageRef": [
@@ -28,7 +31,6 @@
         {
           "id": ""
         }
-      ],
-    "operatingtime":  "$"
+      ]
   }
 ],

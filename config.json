@@ -3,8 +3,8 @@
 "plugins": [
   {
     "plugin": "pacmonitor",
-    "energykwhprice": 0,23,
-    "currencyprefix": €
+    "energykwhprice": "0,23",
+    "currencyprefix": "€"
   }
 ],
 

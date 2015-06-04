@@ -1,0 +1,34 @@
+# This is an example on how to load the plugin in the config.json. It is NOT the complete config file of Pimatic!
+
+"plugins": [
+  {
+    "plugin": "pacmonitor",
+    "energykwhprice": 0,23,
+    "currencyprefix": €
+  }
+],
+
+"devices": [
+  {
+    "id": "pacmonitor",
+    "class": "PacMonitorDevice",
+    "name": "Power and Cost Monitor",
+    "deviceRef": [
+        {
+          "id": ""
+        },
+        {
+          "id": ""
+        }
+      ],
+    "wattageRef": [
+        {
+          "id": ""
+        },
+        {
+          "id": ""
+        }
+      ],
+    "operatingtime":  "$"
+  }
+],

@@ -2,7 +2,7 @@
 
 "plugins": [
   {
-    "plugin": "pacmonitor",
+    "plugin": "devicemonitor",
     "energykwhprice": "0,23",
     "currencyprefix": "€"
   }
@@ -10,8 +10,8 @@
 
 "devices": [
   {
-    "id": "pacmonitor",
-    "class": "PacMonitorDevice",
+    "id": "devicemonitor",
+    "class": "DeviceMonitorDevice",
     "name": "Power and Cost Monitor",
     "operatingtime":  "$",
     "deviceRef": [
